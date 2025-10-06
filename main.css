@@ -1,14 +1,22 @@
 
 header {
-  background-color: rgb(22, 51, 109);
+  background-color: rgb(212, 92, 42);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.headerimage {
+  max-width: 30%;
+  max-height: 30%;
+  justify-content: space-evenly
+}
+
 
 
 header h1 {
-  font-size: 1.5rem; 
+  font-size: 200%; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
 }
 
 nav{
